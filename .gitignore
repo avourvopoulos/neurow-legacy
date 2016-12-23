@@ -3,7 +3,7 @@
 # =============== #
 [Tt]emp/
 [Oo]bj/
-#[Bb]uild/
+[Bb]uild/
 [Ll]ibrary/
 [Aa]ssets/[Uu]nityVS
 sysinfo.txt
