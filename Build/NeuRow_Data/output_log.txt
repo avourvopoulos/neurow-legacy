@@ -1,0 +1,453 @@
+Initialize engine version: 4.6.5f1 (c2bb1d7d067c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+Default GameObject Tag: Player already registered
+ 
+(Filename:  Line: 67)
+
+Default GameObject Tag: MainCamera already registered
+ 
+(Filename:  Line: 67)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  1.065 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 5.888272 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 597.
+Total: 2.719199 ms (FindLiveObjects: 0.092939 ms CreateObjectMapping: 0.039342 ms MarkObjects: 0.510883 ms  DeleteObjects: 0.055877 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+UnloadTime: 1.668353 ms
+disable all
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Arduino.DisableAllMottors () [0x00000] in <filename unknown>:0 
+  at Arduino.OnDisable () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:Destroy(Object, Single)
+UnityEngine.Object:Destroy(Object)
+Arduino:Awake()
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2488.
+Total: 6.585605 ms (FindLiveObjects: 0.294784 ms CreateObjectMapping: 0.108904 ms MarkObjects: 2.413011 ms  DeleteObjects: 1.686029 ms)
+
+receiveThread
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+applyThread
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Start RehabNet Server
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+11
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\System.Configuration.dll (this message is harmless)
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Platform assembly: C:\Users\Athanasios\UnityProjects\neurow_desktop\Build\NeuRow_Data\Managed\System.Xml.dll (this message is harmless)
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+IOException: The port `\\.\COM11' does not exist.
+  at System.IO.Ports.WinSerialStream.ReportIOError (System.String optional_arg) [0x00000] in <filename unknown>:0 
+  at System.IO.Ports.WinSerialStream..ctor (System.String port_name, Int32 baud_rate, Int32 data_bits, Parity parity, StopBits sb, Boolean dtr_enable, Boolean rts_enable, Handshake hs, Int32 read_timeout, Int32 write_timeout, Int32 read_buffer_size, Int32 write_buffer_size) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.WinSerialStream:.ctor (string,int,int,System.IO.Ports.Parity,System.IO.Ports.StopBits,bool,bool,System.IO.Ports.Handshake,int,int,int,int)
+  at System.IO.Ports.SerialPort.Open () [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.SerialPort:Open ()
+  at Arduino.ChangeComPort (System.String port) [0x00000] in <filename unknown>:0 
+  at Arduino.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Started UDP - port: 1205
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UDPReceive.ApplyData () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+disable all
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+InvalidOperationException: Specified port is not open.
+  at System.IO.Ports.SerialPort.CheckOpen () [0x00000] in <filename unknown>:0 
+  at System.IO.Ports.SerialPort.Write (System.String str) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.SerialPort:Write (string)
+  at Arduino.DisableAllMottors () [0x00000] in <filename unknown>:0 
+  at Arduino.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 132.572510 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1028 unused Assets to reduce memory usage. Loaded Objects now: 633.
+Total: 7.607942 ms (FindLiveObjects: 0.778869 ms CreateObjectMapping: 0.037061 ms MarkObjects: 1.515544 ms  DeleteObjects: 3.381751 ms)
+

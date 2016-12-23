@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 120: {fileID: 12000000}
+  - 114: {fileID: 11400000}
+  - 111: {fileID: 11100000}
+  m_Layer: 0
+  m_Name: RayPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!111 &11100000
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: c4dc27d765bda044ea193cb8f4693649, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: c4dc27d765bda044ea193cb8f4693649, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1002 &11100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fce0715225a8545bdbbf474e69bef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BeginLocation: {fileID: 0}
+  EndLocation: {fileID: 0}
+  BeginColor: {r: .40498063, g: .477611959, b: .36711964, a: 1}
+  EndColor: {r: .403921574, g: .478431374, b: .368627459, a: 1}
+  PositionRange: {x: 0, y: 0, z: 0}
+  WidthA: 1
+  WidthB: 1
+  RadiusA: 1
+  RadiusB: 1
+  AlphaCurve: 0
+  FadeSpeed: 1
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!120 &12000000
+LineRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: ada540454d3c3b84abc96b2ad54209e3, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    startWidth: 1
+    endWidth: 1
+    m_StartColor:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_EndColor:
+      serializedVersion: 2
+      rgba: 4294967295
+  m_UseWorldSpace: 1
+--- !u!1002 &12000001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6
