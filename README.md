@@ -6,6 +6,8 @@ NeuRow is Immersive VR Environment for Motor-Imagery training with the use of Br
 
 [NeuRow Website](http://neurorehabilitation.m-iti.org/bci/)
 
+[Video](https://www.youtube.com/watch?v=kHFfXIuESTc)
+
 ### NeuRow flavors ###
 
 * The **standalone version** for PC, supports high quality graphics for an immersive VR experience, with the support of the Oculus Rift headset (for developer kits), the Leap Motion hand controller and vibrotactile feedback. Moreover, data logging is supported for boat trajectory, target location, score and time.
@@ -15,4 +17,4 @@ NeuRow is Immersive VR Environment for Motor-Imagery training with the use of Br
 ![NeuRow](http://neurorehabilitation.m-iti.org/bci/wp-content/uploads/2016/01/20160118_165357-e1454019173422.jpg "NeuRow Setup")
 
 ##Publications:##
-Athanasios Vourvopoulos, Andre Ferreira, Sergi Bermudez i Badia (2016)  NeuRow : An Immersive VR Environment for Motor-Imagery Training with the Use of Brain-Computer Interfaces and Vibrotactile Feedback: 43-53 SCITEPRESS - Science and Technology Publications. 
+**Athanasios Vourvopoulos**, Andre Ferreira, Sergi Bermudez i Badia (2016)  NeuRow : An Immersive VR Environment for Motor-Imagery Training with the Use of Brain-Computer Interfaces and Vibrotactile Feedback: 43-53 SCITEPRESS - Science and Technology Publications. 
