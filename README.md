@@ -2,7 +2,7 @@
 
 ![Unity Version](https://img.shields.io/badge/Unity%20Version-4.6-orange.svg)
 
-NeuRow is Immersive VR Environment for Motor-Imagery training with the use of Brain-Computer Interfaces (BCIs). NeuRow is a rowing game with main target to hit as many flags as possible in a fixed time. Moreover, NeuRow is available for PC, Android OS and also with web browser support through the use of Reh@Panel, a midleware between interfaces and VR.
+NeuRow is Immersive VR Environment for Motor-Imagery training with the use of Brain-Computer Interfaces (BCIs). NeuRow is a rowing game with main target to hit as many flags as possible in a fixed time. Moreover, NeuRow is available for PC, Android OS and also with web browser support through the use of [RehaPanel](https://github.com/athanoid/rehapanel), a midleware between interfaces and VR.
 
 [NeuRow Website](http://neurorehabilitation.m-iti.org/bci/)
 
