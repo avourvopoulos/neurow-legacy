@@ -37,16 +37,16 @@ public class MoveBoat : MonoBehaviour {
 
 	void updateFrequency()
 	{
-		if(freq != 0)
-		{
-			freq = (0.95 * freq) + (0.05 * (System.DateTime.Now.Subtract(a).TotalSeconds));
-			a = System.DateTime.Now;
-		}
-		else
-		{
-			freq = 1.0 / 16.0;
-			a = System.DateTime.Now;
-		}
+//		if(freq != 0)
+//		{
+//			freq = (0.95 * freq) + (0.05 * (System.DateTime.Now.Subtract(a).TotalSeconds));
+//			a = System.DateTime.Now;
+//		}
+//		else
+//		{
+//			freq = 1.0 / 16.0;
+//			a = System.DateTime.Now;
+//		}
 		
 //		print(freq);
 	}
