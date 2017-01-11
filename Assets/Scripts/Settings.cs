@@ -10,7 +10,7 @@ public class Settings : MonoBehaviour
 	public GameObject waypoint;
 	public GameObject arrow;
 	
-	public GameObject leap, hands;
+	public GameObject leap, hands, HTCVive;
 	
 	public static bool leapOn = false;
 	public static bool isTraining = false;
@@ -33,8 +33,9 @@ public class Settings : MonoBehaviour
 	static bool useNetwork;
 //------------------------------------------
 
-//Network Settings -------------------------
+//VR Settings -------------------------
 	public static bool oculusRift = false;
+	public static bool htcvive = false;
 //	static bool leapMotion;
 //------------------------------------------
 
@@ -212,7 +213,14 @@ public class Settings : MonoBehaviour
 				leap.SetActive (false);
 				hands.SetActive (true);
 			}
-		//}
+
+			if (htcvive){
+				HTCVive.SetActive(true);
+				MainCamera.SetActive(false);}
+			else{
+				HTCVive.SetActive(false);
+				MainCamera.SetActive(true);}
+			//}
 	}
 
 
@@ -281,6 +289,10 @@ public class Settings : MonoBehaviour
 			else{
 				Application.LoadLevel("Game");
 			}
+			break;
+		case "HTCVive":
+			//print(name+": "+value);
+			htcvive = value;
 			break;
 		case "Training":
 			isTraining = value;
