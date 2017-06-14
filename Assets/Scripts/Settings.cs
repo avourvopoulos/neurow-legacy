@@ -74,13 +74,13 @@ public class Settings : MonoBehaviour
 		OculusCamera.SetActive (false);
 //		isTraining = true;
 
-		if(Application.loadedLevelName == "Game") // BCI MODE
+		if(Application.loadedLevelName == "Game-Vive") // BCI MODE
 		{
 			isTraining = false;
 			leapOn = false;
 			noAPE = true;
 			reverseHands = true;
-
+			MoveBoat.turnspeed = 8f;
 			// Remove this after trial
 //			oculusRift = true;
 //			switchCamera(oculusRift);
@@ -216,11 +216,13 @@ public class Settings : MonoBehaviour
 
 			if (htcvive){
 				HTCVive.SetActive(true);
+				//VRSettings.enabled = true;
 				MainCamera.SetActive(false);}
-			else{
-				HTCVive.SetActive(false);
-				MainCamera.SetActive(true);}
-			//}
+//			else{
+//				//HTCVive.SetActive(false);
+//				VRSettings.enabled = false;
+//				MainCamera.SetActive(true);}
+//			}
 	}
 
 
@@ -324,7 +326,7 @@ public class Settings : MonoBehaviour
 			MoveBoat.boatspeed = value;
 			break;
 		case "TurnSpeed":
-//			print(name+": "+value);
+			print(name+": "+value);
 			MoveBoat.turnspeed = value;
 			break;
 		case "CutOffAngle":

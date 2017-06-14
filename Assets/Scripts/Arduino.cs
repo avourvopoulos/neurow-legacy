@@ -31,7 +31,7 @@ public class Arduino : MonoBehaviour
 //			sp.Open();
 //		}
 
-		ChangeComPort("9");	//only for study
+		ChangeComPort("6");	//only for study
 	}
 
 	public void ChangeComPort(string port)
@@ -47,7 +47,9 @@ public class Arduino : MonoBehaviour
 		sp = new SerialPort("\\\\.\\COM"+port, 9600);
 		if(!sp.IsOpen)
 		{
-			sp.Open();
+			try{
+				sp.Open();}
+			catch{}
 		}
 	}
 
@@ -67,7 +69,11 @@ public class Arduino : MonoBehaviour
 
 	public static void Send(string data)
 	{
+		try{
 		sp.Write(data);
+		}
+		catch{
+		}
 	}
 
 	void DisableAllMottors()
@@ -78,8 +84,12 @@ public class Arduino : MonoBehaviour
 			int i = 0;
 			for(i = 0; i <= 5; i++)
 			{
+				try{
 				sp.Write("0;0;"+i+";");
 				sp.Write("0;1;"+i+";");
+				}
+				catch{
+				}
 			}
 		}
 	}

@@ -182,7 +182,6 @@ public class RotateRow : MonoBehaviour {
 			// Row Right 
 			if (right && this.gameObject.name == "Rpivot") {
 			GameObject.FindGameObjectWithTag ("RightRow").transform.Rotate (Vector3.right * speed * Time.deltaTime);
-
 			}
 
 

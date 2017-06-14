@@ -5,7 +5,7 @@ public class MoveBoat : MonoBehaviour {
 
 	[SerializeField]
 	public static float boatspeed = 0f;//default = 5
-	public static float turnspeed = 25f;
+	public static float turnspeed = 8f;
 	public static float stoppingAngle = 45f;
 
 	public Transform compass;

@@ -9,8 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Loader.unity
   - enabled: 0
     path: Assets/Scenes/MainMenu.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
+  - enabled: 1
+    path: Assets/Scenes/Game-Vive.unity
   - enabled: 1
     path: Assets/Scenes/Leap.unity
   - enabled: 0
